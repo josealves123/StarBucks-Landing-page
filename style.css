@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SoDo Sans',Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar .nav-left{
+    display: flex;
+    align-items: center;
+    margin: 25px;
+}
+
+.navbar .nav-itens{
+    padding: 5px;
+    margin-left:5px ;
+    margin-right:10px ;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 0.04cm;
+}
+
+.navbar .nav-itens:hover{
+    color:rgb(0, 130, 0);
+}
+
+.navbar .nav-left .logo{
+    margin-right:40px ;
+    margin-left: 10px;
+    width: 55px;
+}
+
+.navbar .nav-right{
+    display: flex;
+    align-items: center;
+    margin-right:40px;
+    gap: 10px;
+}
+
+.img-hist{
+    width: 140px;
+
+}
+
+.navbar .nav-right .img-local{
+    width: 30px;
+
+}
+
+.banner-2{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    background-color: #d4e9e2;
+    height: 340px;
+}
+
+.banner-2{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.04cm; 
+    margin-left: auto;
+    margin-right: auto; 
+    line-height: 0.7cm;
+}
+
+.banner-2 .ban-title{
+    margin-top: 20px;
+    max-width: 800px;
+    color: rgb(0, 88, 0);
+}
+
+.banner-2 .ban-subtile{
+    max-width: 840px;
+    color: rgb(0, 88, 0)
+}
+
+.about-btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 60px;
+    letter-spacing: 0.05cm;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(0, 88, 0);
+    color:  rgb(0, 88, 0);
+    cursor: pointer;
+}
+
+.about-btn:hover{
+    border: 2px solid rgb(255, 255, 255);
+    color:  rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.rodape{
+    margin-top: 40px;
+    height: 400px;
+    box-shadow: -2px -8px 5px 0px rgba(204,200,204,1);
+-moz-box-shadow: -2px -8px 5px 0px rgba(204,200,204,1);
+box-shadow: -2px -8px 5px 0px rgba(204,200,204,1);
+}
+
+.rodape a{
+    margin-top: 40px;
+}
+
+.rod-sub{
+    color: rgba(76, 83, 89, 0.71);
+}
+
+.rod-sub:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.rodape .about{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 40px;
+    font-size: 16px;
+    margin-right: 90px;
+    margin-left: 100px;
+}
+
+.rodape .carrier{
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+
+.rod-title{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.rodape .img-hist{
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+
+
+
+
